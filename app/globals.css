@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { @apply h-full bg-beige text-neutral-900; }
+
+.header-gradient { background: linear-gradient(180deg, theme(colors.sunsetA), theme(colors.sunsetB)); }
