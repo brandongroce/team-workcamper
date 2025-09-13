@@ -24,18 +24,18 @@ export default function ContactBar() {
 
             <div className="flex items-center gap-4">
                 <div className="flex flex-col items-start">
-                    <a href="/brandon_resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-700 hover:underline">
+                    <a href="/groce_resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-700 hover:underline">
                         Brandon's Resume
                     </a>
-                    <a href="/brandon_resume.pdf" download className="flex items-center gap-1 bg-sage text-white px-3 py-1 mt-1 rounded hover:bg-green-700">
+                    <a href="/groce_resume.pdf" download className="flex items-center gap-1 bg-sage text-white px-3 py-1 mt-1 rounded hover:bg-green-700">
                         Download PDF
                     </a>
                 </div>
                 <div className="flex flex-col items-start">
-                    <a href="/amanda_resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-700 hover:underline">
+                    <a href="/adcox_resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-700 hover:underline">
                         Amanda's Resume
                     </a>
-                    <a href="/amanda_resume.pdf" download className="flex items-center gap-1 bg-sage text-white px-3 py-1 mt-1 rounded hover:bg-green-700">
+                    <a href="/adcox_resume.pdf" download className="flex items-center gap-1 bg-sage text-white px-3 py-1 mt-1 rounded hover:bg-green-700">
                         Download PDF
                     </a>
                 </div>
