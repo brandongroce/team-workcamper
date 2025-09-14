@@ -7,7 +7,7 @@ export default function ContactBar() {
         <div className="bg-white shadow-md rounded-2xl p-6 mt-6 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
                 <p className="font-bold text-lg">Brandon Groce & Amanda Bee Adcox</p>
-                <p>Email: <a href="mailto:bgroce@pm.me" className="text-blue-600 hover:underline">bgroce@pm.me</a></p>
+                <p>Email: <a href="mailto:brandon@groce.dev" className="text-blue-600 hover:underline">brandon@groce.dev</a></p>
                 <p>Phone: <a href="tel:2065503950" className="text-blue-600 hover:underline">(206) 550-3950</a></p>
             </div>
 
