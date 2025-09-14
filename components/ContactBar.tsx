@@ -8,8 +8,8 @@ export default function ContactBar() {
         <div className="bg-white shadow-md rounded-2xl p-6 mt-6 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
                 <p className="font-bold text-lg">Brandon Groce & Amanda Bee Adcox</p>
-                <p>Email: <a href={ "mailto:" + contact.email } className="text-blue-600 hover:underline">brandon@groce.dev</a></p>
-                <p>Phone: <a href={ "tel:" + contact.phone } className="text-blue-600 hover:underline">(206) 550-3950</a></p>
+                <p>Email: <a href={ "mailto:" + contact.email } className="text-blue-600 hover:underline">{contact.email}</a></p>
+                <p>Phone: <a href={ "tel:" + contact.phone } className="text-blue-600 hover:underline">{contact.phone}</a></p>
             </div>
 
 
