@@ -29,9 +29,12 @@ export default function Hero() {
                     </h1>
                     <p className="text-4xl md:text-6xl font-black leading-tight">WORK CAMPER TEAM</p>
                     <p className="mt-3 max-w-2xl text-base md:text-lg hero-textbox">
-                        Resourceful, adaptable team with strengths in guest services, maintenance, and
-                        administration. Currently RV Camp Hosts at Teton Valley Resort — praised for friendliness
-                        & reliability.
+                        Hi there! We’re a married couple traveling in our self-contained RV, 
+                        ready to roll into our next campground adventure. 
+                        We’re looking for paid roles where we can put our skills to work — 
+                        whether that’s camp hosting, groundskeeping, maintenance, or helping out in a 
+                        restaurant, bar, or retail setting. We’re easygoing, flexible on hookups, 
+                        and bring plenty of energy and friendliness wherever we land!
                     </p>
                 </div>
             </div>

@@ -12,7 +12,7 @@ export default function PhotoStripMini() {
         {/* Decorative top rail */}
         <div className="h-1 bg-gradient-to-r from-sunsetA via-sky to-sage rounded-full mb-5" />
 
-        <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+        <div className="flex flex-col md:flex-row items-start justify-center gap-10">
           {/* Our Rig */}
           <Block title="Our Rig" icon={<RvIcon className="h-5 w-5" />}>
             <div className="flex gap-3">
@@ -22,6 +22,13 @@ export default function PhotoStripMini() {
               <Frame onClick={() => setOpen("/rv2.jpg")}>
                 <Image src="/rv2.jpg" alt="RV photo 2" fill className="object-cover" />
               </Frame>
+              <Frame onClick={() => setOpen("/rv3.jpg")}>
+                <Image src="/rv3.jpg" alt="RV photo 3" fill className="object-cover" />
+              </Frame>
+            </div>
+            <div className="flex flex-wrap justify-center gap-2 mt-3">
+              <Chip>2020 Flagstaff E-Pro E19FBS</Chip>
+              <Chip>2013 Ford E250 Conversion Van</Chip>
             </div>
           </Block>
 
@@ -37,6 +44,12 @@ export default function PhotoStripMini() {
               <Frame circle onClick={() => setOpen("/cat2.jpg")}>
                 <Image src="/cat2.jpg" alt="Tank photo 2" fill className="object-cover" />
               </Frame>
+              <Frame circle onClick={() => setOpen("/cat3.jpg")}>
+                <Image src="/cat3.jpg" alt="Tank photo 3" fill className="object-cover" />
+              </Frame>
+            </div>
+            <div className="flex flex-wrap justify-center gap-2 mt-3">
+              <Chip>2014 Bengal "Tank"</Chip>
             </div>
           </Block>
         </div>
@@ -59,7 +72,6 @@ export default function PhotoStripMini() {
               Close ✕
             </button>
             <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-black">
-              {/* Use plain <img> here to sidestep next/image dynamic-src quirks */}
               <img
                 src={open}
                 alt="Enlarged photo"
@@ -83,7 +95,7 @@ function Block({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col items-center gap-3">
+    <div className="flex flex-col items-center gap-3 max-w-xs">
       <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/70 ring-1 ring-black/5 shadow-sm">
         <span className="text-[#1E5631]">{icon}</span>
         <h3 className="text-sm md:text-base font-extrabold text-neutral-800">{title}</h3>
@@ -106,12 +118,20 @@ function Frame({
     <div
       onClick={onClick}
       className={`relative overflow-hidden ring-2 ring-white shadow-sm cursor-pointer hover:scale-[1.03] transition-transform ${
-        circle ? "rounded-full w-28 h-28 md:w-32 md:h-32" : "rounded-xl w-32 h-24 md:w-40 md:h-28"
+        circle ? "rounded-full w-24 h-24 md:w-28 md:h-28" : "rounded-xl w-28 h-20 md:w-32 md:h-24"
       }`}
     >
       {children}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
     </div>
+  );
+}
+
+function Chip({ children }: { children: React.ReactNode }) {
+  return (
+    <span className="px-2.5 py-1 text-xs rounded-full bg-white/80 ring-1 ring-black/10 text-neutral-700 shadow-sm">
+      {children}
+    </span>
   );
 }
 
