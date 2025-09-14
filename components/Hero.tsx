@@ -27,10 +27,10 @@ export default function Hero() {
                     <h1 className="text-2xl md:text-4xl font-extrabold">
                         Brandon & Amanda
                     </h1>
-                    <p className="text-4xl md:text-6xl font-black leading-tight">WORK CAMPER TEAM</p>
+                    <p className="text-4xl md:text-6xl font-black leading-tight">NOMAD OPS TEAM</p>
                     <p className="mt-3 max-w-2xl text-base md:text-lg hero-textbox">
-                        Hi there! We’re a married couple traveling in our self-contained RV, 
-                        ready to roll into our next campground adventure. 
+                        Hi there! We’re a married couple traveling in our RV with our cat Tank, 
+                        ready to roll into our next seasonal adventure. 
                         We’re looking for paid roles where we can put our skills to work — 
                         whether that’s camp hosting, groundskeeping, maintenance, or helping out in a 
                         restaurant, bar, or retail setting. We’re easygoing, flexible on hookups, 

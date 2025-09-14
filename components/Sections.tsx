@@ -19,7 +19,7 @@ export default function Sections() {
           <li>🌸 Landscaping, Planting & Grounds Care</li>
           <li>🎉 Event Planning, Coordination & Entertainment Hosting</li>
           <li>🤝 Customer Service & Conflict Resolution</li>
-          <li>💻 Software Development, IT Troubleshooting & Tech Support</li>
+          <li>💻 Software Development, Troubleshooting & Support</li>
           <li>🚐 RV/Van Conversion, Off-Grid Systems & DIY Carpentry</li>
           <li>🍳 Food Service & Bar Operations</li>
           <li>🎶 Music, DJ & Audio/Lighting Production</li>
