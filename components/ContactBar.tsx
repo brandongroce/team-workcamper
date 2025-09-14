@@ -28,7 +28,7 @@ export default function ContactBar() {
                         Brandon's Resume
                     </a>
                     <a href="/groce_resume.pdf" download className="flex items-center gap-1 bg-sage text-white px-3 py-1 mt-1 rounded hover:bg-green-700">
-                        Download PDF
+                        Download
                     </a>
                 </div>
                 <div className="flex flex-col items-start">
@@ -36,7 +36,7 @@ export default function ContactBar() {
                         Amanda's Resume
                     </a>
                     <a href="/adcox_resume.pdf" download className="flex items-center gap-1 bg-sage text-white px-3 py-1 mt-1 rounded hover:bg-green-700">
-                        Download PDF
+                        Download
                     </a>
                 </div>
             </div>
