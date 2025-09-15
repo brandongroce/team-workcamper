@@ -27,7 +27,7 @@ export default function Hero() {
                     <h1 className="text-2xl md:text-4xl font-extrabold">
                         Brandon & Amanda
                     </h1>
-                    <p className="text-4xl md:text-6xl font-black leading-tight">NOMAD OPS TEAM</p>
+                    <p className="text-4xl md:text-6xl font-black leading-tight">DO-IT-ALL DUO</p>
                     <p className="mt-3 max-w-2xl text-base md:text-lg hero-textbox">
                         Hi there! We’re a married couple traveling in our RV with our cat Tank, 
                         ready to roll into our next seasonal adventure. 

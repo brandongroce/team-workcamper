@@ -46,7 +46,7 @@ export default function Sections() {
           <div>
             <h3 className="font-bold flex items-center gap-2">
               <CampIcon className="h-5 w-5 text-[#0e3445]" />
-              RV Camp Hosts | Eagle Valley Resort (Summer 2021 & 2022)
+              Camp Host Volunteers | Eagle Valley Resort (Summer 2021 & 2022)
             </h3>
             <ul className="list-disc ml-6 mt-1 space-y-1">
               <li>Supported campground operations, site prep, and guest services</li>
@@ -57,37 +57,37 @@ export default function Sections() {
           <div>
             <h3 className="font-bold flex items-center gap-2">
               <MusicIcon className="h-5 w-5 text-[#0e3445]" />
-              Event Soundtracks | Owners & DJs
+              Event Soundtracks | Owners & DJs (2004-Present)
             </h3>
             <ul className="list-disc ml-6 mt-1 space-y-1">
               <li>Produced and hosted weddings, parties, and live events</li>
-              <li>Provided DJ, audio, and lighting services</li>
+              <li>Provided DJ, audio, lighting, and planning services</li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-bold flex items-center gap-2">
               <CartIcon className="h-5 w-5 text-[#0e3445]" />
-              Instacart Shopper
+              Instacart - Costco Same Day Delivery (2024-Present)
             </h3>
-            <p className="ml-6 mt-1">Demonstrated reliability, accuracy, and customer service in a fast-paced environment</p>
+            <p className="ml-6 mt-1">Demonstrated reliability, accuracy, and customer service in fast-paced environments</p>
           </div>
 
           <div>
             <h3 className="font-bold flex items-center gap-2">
               <CodeIcon className="h-5 w-5 text-[#0e3445]" />
-              Software Engineer (2004–2019)
+              Software Engineer @ Disney & American Family Insurance (2006–2022)
             </h3>
             <ul className="list-disc ml-6 mt-1 space-y-1">
               <li>Led development projects across web and backend systems</li>
-              <li>Specialized in system architecture, coding, and collaboration</li>
+              <li>Specialized in system architecture, coding, and hiring teams</li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-bold flex items-center gap-2">
               <BookIcon className="h-5 w-5 text-[#0e3445]" />
-              Teacher (10 yrs)
+              6th Grade Middle School Teacher (2010-2020)
             </h3>
             <ul className="list-disc ml-6 mt-1 space-y-1">
               <li>Classroom instruction and curriculum development</li>
