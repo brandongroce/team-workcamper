@@ -38,14 +38,14 @@ export default function PhotoStripMini() {
           {/* Travel Companion */}
           <Block title="Travel Companion" icon={<PawIcon className="h-5 w-5" />}>
             <div className="flex gap-3">
-              <Frame circle onClick={() => setOpen("/cat1.jpg")}>
-                <Image src="/cat1.jpg" alt="Tank photo 1" fill className="object-cover" />
+              <Frame circle onClick={() => setOpen("/tank2.jpg")}>
+                <Image src="/tank2.jpg" alt="Tank photo 1" fill className="object-cover" />
               </Frame>
-              <Frame circle onClick={() => setOpen("/cat2.jpg")}>
-                <Image src="/cat2.jpg" alt="Tank photo 2" fill className="object-cover" />
+              <Frame circle onClick={() => setOpen("/tank5.jpg")}>
+                <Image src="/tank5.jpg" alt="Tank photo 2" fill className="object-cover" />
               </Frame>
-              <Frame circle onClick={() => setOpen("/cat3.jpg")}>
-                <Image src="/cat3.jpg" alt="Tank photo 3" fill className="object-cover" />
+              <Frame circle onClick={() => setOpen("/tank8.jpg")}>
+                <Image src="/tank8.jpg" alt="Tank photo 3" fill className="object-cover" />
               </Frame>
             </div>
             <div className="flex flex-wrap justify-center gap-2 mt-3">
